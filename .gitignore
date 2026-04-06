@@ -1,12 +1,35 @@
-# unpacked plugin folders
-plugins/**/*
+# Environments
+.env
+venv/
+env/
+.venv/
 
-# files directory where uploads go
-files
+# Python built-in files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
-# DBMigrate plugin: generated SQL
-db/sql
+# Build and Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
 
-# AssetBundler plugin: generated bundles
-javascripts/bundles
-stylesheets/bundles
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs and Outputs
+logs/
+outputs/
+*.log
+
+# IDE and System
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
